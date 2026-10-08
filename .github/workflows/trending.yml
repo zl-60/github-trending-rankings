@@ -1,0 +1,49 @@
+name: Trending Rankings
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'trending.mjs'
+      - 'package.json'
+      - 'test/**'
+      - '.github/workflows/trending.yml'
+  schedule:
+    # 每天北京时间 10:37，保存当时的三个周期榜单。
+    - cron: '37 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: trending-rankings
+  cancel-in-progress: false
+
+jobs:
+  rankings:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test
+        run: npm test
+      - name: Fetch all three rankings
+        run: npm start
+      - uses: actions/upload-artifact@v4
+        with:
+          name: trending-rankings
+          path: reports/
+      - name: Commit snapshots
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m 'Update Trending daily, weekly and monthly rankings'
+          git push
