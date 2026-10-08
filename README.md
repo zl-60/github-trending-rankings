@@ -1,14 +1,14 @@
 # GitHub Trending 日榜、周榜、月榜
 
-直接读取 GitHub Trending 的三个页面，分别按页面显示的周期新增 Star 数降序排列，**保留每个页面的全部项目，不截取前 10**。同分保持页面原顺序。表格中的排序列称为“增数排名”。
+榜单内容来自 GitHub 上的热门话题，**可能遗漏部分项目**。日榜、周榜、月榜分别按对应周期新增 Star 数降序排列，保留已收集的全部项目。同分保持原顺序，表格中的排序列称为“增数排名”。
 
 2026-10-08 快照：[日榜](reports/2026-10-08/daily.md) · [周榜](reports/2026-10-08/weekly.md) · [月榜](reports/2026-10-08/monthly.md) · [合并榜单](reports/2026-10-08/rankings.md)。其它日期的快照保存在 [reports](reports/)。
 
-| 周期 | 来源 | 排序字段 |
-| --- | --- | --- |
-| 日榜 | https://github.com/trending?since=daily | stars today |
-| 周榜 | https://github.com/trending?since=weekly | stars this week |
-| 月榜 | https://github.com/trending?since=monthly | stars this month |
+| 周期 | 排序字段 |
+| --- | --- |
+| 日榜 | 今日新增 Star |
+| 周榜 | 本周新增 Star |
+| 月榜 | 本月新增 Star |
 
 ## 运行
 
@@ -47,4 +47,3 @@ node trending.mjs --input-dir reports/2026-10-08/sources --output-dir offline-re
 
 工作流需要仓库允许 Actions 写入；受保护分支可能禁止直接推送。定时触发可能延迟。上传后可在仓库的 Actions 页面查看运行状态，也可手动运行验证。
 
-这三个榜单的项目范围为各自 Trending 页面列出的项目，数值来自该页的周期 Star 字段。
