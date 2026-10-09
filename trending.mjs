@@ -90,7 +90,7 @@ export function markdown(report, onlyPeriod) {
     const board = report.boards[period];
     const config = PERIODS[period];
     lines.push(`## ${config.label} · ${board.rows.length} 个项目`, '',
-      `[数据来源](${board.source_url}) · 抓取时间：${board.fetched_at ?? '离线 HTML 输入，原始抓取时间未知'}。`, '',
+      `抓取时间：${board.fetched_at ?? '离线 HTML 输入，原始抓取时间未知'}。`, '',
       `| 增数排名 | 项目 | ${config.metric} | 总 Star | 语言 | 简介 |`,
       '| ---: | --- | ---: | ---: | --- | --- |');
     for (const row of board.rows) {

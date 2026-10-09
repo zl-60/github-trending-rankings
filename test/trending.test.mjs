@@ -58,11 +58,16 @@ test('三个完整 HTML 离线生成独立榜单、合并榜单、JSON 和源文
       assert.equal(report.boards[period].count, 2);
       assert.equal(report.boards[period].fetched_at, null);
       assert.match(report.boards[period].source_html_sha256, /^[a-f\d]{64}$/);
-      assert.match(await readFile(path.join(destination, `${period}.md`), 'utf8'), /o\/two/);
+      const rendered = await readFile(path.join(destination, `${period}.md`), 'utf8');
+      assert.match(rendered, /o\/two/);
+      assert.match(rendered, /抓取时间：/);
+      assert.doesNotMatch(rendered, /数据来源|https:\/\/github\.com\/trending/);
       assert.equal(await readFile(path.join(destination, 'sources', `${period}.html`), 'utf8'), await readFile(path.join(inputDir, `${period}.html`), 'utf8'));
     }
     assert.equal(JSON.parse(await readFile(path.join(destination, 'rankings.json'), 'utf8')).boards.daily.rows.length, 2);
-    assert.match(await readFile(path.join(destination, 'rankings.md'), 'utf8'), /月榜/);
+    const combined = await readFile(path.join(destination, 'rankings.md'), 'utf8');
+    assert.match(combined, /月榜/);
+    assert.doesNotMatch(combined, /数据来源|https:\/\/github\.com\/trending/);
     await writeFile(path.join(inputDir, 'weekly.html'), '<html>error</html>');
     const failedDir = path.join(directory, 'failed');
     await assert.rejects(generate({ inputDir, outputDir: failedDir }), /没有项目/);
