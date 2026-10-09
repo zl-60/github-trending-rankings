@@ -41,9 +41,10 @@ node trending.mjs --input-dir reports/2026-10-08/sources --output-dir offline-re
 
 ## 每日自动运行
 
-把本目录的内容上传至你自己的 GitHub 仓库根目录，保留 `.github/workflows/trending.yml`。它每天北京时间 10:37 抓取三个榜单，保存快照、上传 artifact 并提交结果。也支持 Actions 页面手动 Run workflow。
+把本目录的内容上传至你自己的 GitHub 仓库根目录，保留 `.github/workflows/trending.yml`。它计划每天北京时间 10:37 抓取三个榜单，保存快照、更新 README 日期链接、上传 artifact 并提交结果。也支持 Actions 页面手动 Run workflow。
+
+GitHub 定时任务可能延迟或漏触发，10:37 不是准点完成的保证。因此从 11:37 到 23:37 每小时设有备用触发；当天完整榜单已生成时自动跳过，缺失或损坏时补跑。首次上传、代码修改和手动运行仍会刷新榜单。
 
 首次上传以及主分支代码或工作流修改时，也会运行一次验证和抓取。只更新榜单文件不会触发重复运行。
 
 工作流需要仓库允许 Actions 写入；受保护分支可能禁止直接推送。定时触发可能延迟。上传后可在仓库的 Actions 页面查看运行状态，也可手动运行验证。
-

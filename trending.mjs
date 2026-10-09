@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile, rename } from 'node:fs/promises';
+import { mkdir, readFile, writeFile, rename, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { createHash } from 'node:crypto';
@@ -106,6 +106,35 @@ async function atomicWrite(filename, content) {
   await rename(`${filename}.tmp`, filename);
 }
 
+export function snapshotDate(now = new Date()) {
+  return new Date(now.getTime() + 8 * 3600_000).toISOString().slice(0, 10);
+}
+
+export function readmeForDate(content, date) {
+  const line = `${date} 快照：[日榜](reports/${date}/daily.md) · [周榜](reports/${date}/weekly.md) · [月榜](reports/${date}/monthly.md) · [合并榜单](reports/${date}/rankings.md)。其它日期的快照保存在 [reports](reports/)。`;
+  if (/^\d{4}-\d{2}-\d{2} 快照：.*$/m.test(content)) {
+    return content.replace(/^\d{4}-\d{2}-\d{2} 快照：.*$/m, line);
+  }
+  return content.replace(/^(# [^\n]+\n)/, `$1\n${line}\n`);
+}
+
+export async function hasSnapshot(outputDir = 'reports', date = snapshotDate()) {
+  try {
+    const destination = path.join(outputDir, date);
+    const report = JSON.parse(await readFile(path.join(destination, 'rankings.json'), 'utf8'));
+    if (report.mode !== 'live' || report.snapshot_date !== date || !report.boards) return false;
+    if (!Object.keys(PERIODS).every(period => {
+      const board = report.boards[period];
+      return board && Number.isInteger(board.count) && board.count > 0 && Array.isArray(board.rows) && board.rows.length === board.count;
+    })) return false;
+    const files = ['rankings.md', ...Object.keys(PERIODS).flatMap(period => [`${period}.md`, `sources/${period}.html`])];
+    const stats = await Promise.all(files.map(file => stat(path.join(destination, file))));
+    return stats.every(item => item.isFile() && item.size > 0);
+  } catch {
+    return false;
+  }
+}
+
 export async function generate({ outputDir = 'reports', inputDir } = {}) {
   const captured = await Promise.all(Object.keys(PERIODS).map(async period => {
     if (!inputDir) return fetchPage(period);
@@ -114,7 +143,7 @@ export async function generate({ outputDir = 'reports', inputDir } = {}) {
       fetched_at: null, html, rows: parseTrending(html, period) };
   }));
   const now = new Date();
-  const date = new Date(now.getTime() + 8 * 3600_000).toISOString().slice(0, 10);
+  const date = snapshotDate(now);
   const report = { snapshot_date: date, generated_at: now.toISOString(),
     snapshot_date_timezone: 'Asia/Shanghai', mode: inputDir ? 'offline' : 'live',
     ranking: 'period stars descending; ties preserve GitHub rank; all listed repositories retained', boards: {} };
@@ -148,6 +177,12 @@ async function main() {
     options[key] = args[++index];
   }
   const { report, destination } = await generate(options);
+  if (!options.inputDir && (options.outputDir === undefined || options.outputDir === 'reports')) {
+    // Only update the snapshot line; keep the user's source declaration intact.
+    let readme;
+    try { readme = await readFile('README.md', 'utf8'); } catch (error) { if (error.code !== 'ENOENT') throw error; }
+    if (readme !== undefined) await atomicWrite('README.md', readmeForDate(readme, report.snapshot_date));
+  }
   for (const [period, board] of Object.entries(report.boards)) console.log(`${PERIODS[period].label}: ${board.count} 个项目`);
   console.log(`已保存至 ${destination}`);
 }

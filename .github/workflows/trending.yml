@@ -9,8 +9,8 @@ on:
       - 'test/**'
       - '.github/workflows/trending.yml'
   schedule:
-    # 每天北京时间 10:37，保存当时的三个周期榜单。
-    - cron: '37 2 * * *'
+    # 北京时间 10:37 首次尝试；未成功时每小时备用触发，直到 23:37。
+    - cron: '37 2-15 * * *'
   workflow_dispatch:
 
 permissions:
@@ -29,19 +29,33 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Check whether today's snapshot is complete
+        id: snapshot
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          node --input-type=module <<'NODE' >> "$GITHUB_OUTPUT"
+          import { hasSnapshot } from './trending.mjs';
+          const skip = process.env.EVENT_NAME === 'schedule' && await hasSnapshot();
+          console.log(`update=${!skip}`);
+          NODE
       - name: Test
+        if: steps.snapshot.outputs.update == 'true'
         run: npm test
       - name: Fetch all three rankings
+        if: steps.snapshot.outputs.update == 'true'
         run: npm start
       - uses: actions/upload-artifact@v4
+        if: steps.snapshot.outputs.update == 'true'
         with:
           name: trending-rankings
           path: reports/
       - name: Commit snapshots
+        if: steps.snapshot.outputs.update == 'true'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add reports/
+          git add reports/ README.md
           if git diff --cached --quiet; then
             exit 0
           fi
