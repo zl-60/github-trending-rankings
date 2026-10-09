@@ -2,7 +2,7 @@
 
 榜单内容来自 GitHub 上的热门话题，**可能遗漏部分项目**。日榜、周榜、月榜分别按对应周期新增 Star 数降序排列，保留已收集的全部项目。同分保持原顺序，表格中的排序列称为“增数排名”。
 
-2026-10-08 快照：[日榜](reports/2026-10-08/daily.md) · [周榜](reports/2026-10-08/weekly.md) · [月榜](reports/2026-10-08/monthly.md) · [合并榜单](reports/2026-10-08/rankings.md)。其它日期的快照保存在 [reports](reports/)。
+2026-10-09 快照：[日榜](reports/2026-10-09/daily.md) · [周榜](reports/2026-10-09/weekly.md) · [月榜](reports/2026-10-09/monthly.md) · [合并榜单](reports/2026-10-09/rankings.md)。其它日期的快照保存在 [reports](reports/)。
 
 | 周期 | 排序字段 |
 | --- | --- |
