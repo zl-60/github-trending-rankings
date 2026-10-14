@@ -1,0 +1,539 @@
+{
+  "snapshot_date": "2026-10-15",
+  "generated_at": "2026-10-14T18:51:27.215Z",
+  "snapshot_date_timezone": "Asia/Shanghai",
+  "mode": "live",
+  "ranking": "period stars descending; ties preserve GitHub rank; all listed repositories retained",
+  "boards": {
+    "daily": {
+      "source_url": "https://github.com/trending?since=daily",
+      "fetched_at": "2026-10-14T18:51:26.909Z",
+      "count": 12,
+      "source_html_sha256": "d41c8f369e55b8b682351711ece10c58b62d15b9b8e5b911232d05e4669722f3",
+      "rows": [
+        {
+          "rank": 1,
+          "github_rank": 1,
+          "repository": "morluto/rea",
+          "url": "https://github.com/morluto/rea",
+          "stars_gained": 41187,
+          "growth_text": "41,187 stars today",
+          "total_stars": 236605,
+          "language": "TypeScript",
+          "description": "Reverse engineer anything with agents, from app behavior down to native binaries."
+        },
+        {
+          "rank": 2,
+          "github_rank": 2,
+          "repository": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "stars_gained": 3547,
+          "growth_text": "3,547 stars today",
+          "total_stars": 65713,
+          "language": "Python",
+          "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+        },
+        {
+          "rank": 3,
+          "github_rank": 7,
+          "repository": "ifixai-ai/iFixAi",
+          "url": "https://github.com/ifixai-ai/iFixAi",
+          "stars_gained": 2143,
+          "growth_text": "2,143 stars today",
+          "total_stars": 27090,
+          "language": "Python",
+          "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds."
+        },
+        {
+          "rank": 4,
+          "github_rank": 10,
+          "repository": "xtool-org/xtool",
+          "url": "https://github.com/xtool-org/xtool",
+          "stars_gained": 1510,
+          "growth_text": "1,510 stars today",
+          "total_stars": 10482,
+          "language": "Swift",
+          "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS."
+        },
+        {
+          "rank": 5,
+          "github_rank": 8,
+          "repository": "vxcontrol/pentagi",
+          "url": "https://github.com/vxcontrol/pentagi",
+          "stars_gained": 1070,
+          "growth_text": "1,070 stars today",
+          "total_stars": 29148,
+          "language": "Go",
+          "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks"
+        },
+        {
+          "rank": 6,
+          "github_rank": 12,
+          "repository": "NationalSecurityAgency/ghidra",
+          "url": "https://github.com/NationalSecurityAgency/ghidra",
+          "stars_gained": 1002,
+          "growth_text": "1,002 stars today",
+          "total_stars": 87199,
+          "language": "Java",
+          "description": "Ghidra is a software reverse engineering (SRE) framework"
+        },
+        {
+          "rank": 7,
+          "github_rank": 3,
+          "repository": "mksglu/context-mode",
+          "url": "https://github.com/mksglu/context-mode",
+          "stars_gained": 946,
+          "growth_text": "946 stars today",
+          "total_stars": 28948,
+          "language": "TypeScript",
+          "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+        },
+        {
+          "rank": 8,
+          "github_rank": 9,
+          "repository": "rust-lang/rust",
+          "url": "https://github.com/rust-lang/rust",
+          "stars_gained": 205,
+          "growth_text": "205 stars today",
+          "total_stars": 119891,
+          "language": "Rust",
+          "description": "Empowering everyone to build reliable and efficient software."
+        },
+        {
+          "rank": 9,
+          "github_rank": 11,
+          "repository": "ntdevlabs/tiny11builder",
+          "url": "https://github.com/ntdevlabs/tiny11builder",
+          "stars_gained": 194,
+          "growth_text": "194 stars today",
+          "total_stars": 20142,
+          "language": "C#",
+          "description": "WinUI app for building smaller, customized Windows 11 images."
+        },
+        {
+          "rank": 10,
+          "github_rank": 5,
+          "repository": "K-Dense-AI/scientific-agent-skills",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "stars_gained": 146,
+          "growth_text": "146 stars today",
+          "total_stars": 49160,
+          "language": "Python",
+          "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard."
+        },
+        {
+          "rank": 11,
+          "github_rank": 6,
+          "repository": "HKUDS/CLI-Anything",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "stars_gained": 94,
+          "growth_text": "94 stars today",
+          "total_stars": 52354,
+          "language": "Python",
+          "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/"
+        },
+        {
+          "rank": 12,
+          "github_rank": 4,
+          "repository": "nvm-sh/nvm",
+          "url": "https://github.com/nvm-sh/nvm",
+          "stars_gained": 70,
+          "growth_text": "70 stars today",
+          "total_stars": 95411,
+          "language": "Shell",
+          "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions."
+        }
+      ]
+    },
+    "weekly": {
+      "source_url": "https://github.com/trending?since=weekly",
+      "fetched_at": "2026-10-14T18:51:26.981Z",
+      "count": 12,
+      "source_html_sha256": "76a5b0b00e1fb5830e713bdcfbabf541526ff24d42d919e27aeac5fe0186881d",
+      "rows": [
+        {
+          "rank": 1,
+          "github_rank": 1,
+          "repository": "morluto/rea",
+          "url": "https://github.com/morluto/rea",
+          "stars_gained": 183758,
+          "growth_text": "183,758 stars this week",
+          "total_stars": 236605,
+          "language": "TypeScript",
+          "description": "Reverse engineer anything with agents, from app behavior down to native binaries."
+        },
+        {
+          "rank": 2,
+          "github_rank": 2,
+          "repository": "boykopovar/AnyPS5",
+          "url": "https://github.com/boykopovar/AnyPS5",
+          "stars_gained": 28663,
+          "growth_text": "28,663 stars this week",
+          "total_stars": 36811,
+          "language": "C++",
+          "description": "Tool for automatic PS5 executables porting to Linux and Windows"
+        },
+        {
+          "rank": 3,
+          "github_rank": 3,
+          "repository": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "stars_gained": 11955,
+          "growth_text": "11,955 stars this week",
+          "total_stars": 290958,
+          "language": "Shell",
+          "description": "Skills for Real Engineers. Straight from my .agents directory."
+        },
+        {
+          "rank": 4,
+          "github_rank": 8,
+          "repository": "cathrynlavery/diagram-design",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "stars_gained": 9867,
+          "growth_text": "9,867 stars this week",
+          "total_stars": 55214,
+          "language": "HTML",
+          "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop."
+        },
+        {
+          "rank": 5,
+          "github_rank": 12,
+          "repository": "NationalSecurityAgency/ghidra",
+          "url": "https://github.com/NationalSecurityAgency/ghidra",
+          "stars_gained": 4986,
+          "growth_text": "4,986 stars this week",
+          "total_stars": 87199,
+          "language": "Java",
+          "description": "Ghidra is a software reverse engineering (SRE) framework"
+        },
+        {
+          "rank": 6,
+          "github_rank": 4,
+          "repository": "heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes",
+          "stars_gained": 4732,
+          "growth_text": "4,732 stars this week",
+          "total_stars": 63546,
+          "language": "TypeScript",
+          "description": "Write HTML. Render video. Built for agents."
+        },
+        {
+          "rank": 7,
+          "github_rank": 6,
+          "repository": "tester-army/e2e",
+          "url": "https://github.com/tester-army/e2e",
+          "stars_gained": 4426,
+          "growth_text": "4,426 stars this week",
+          "total_stars": 10437,
+          "language": "TypeScript",
+          "description": "Next generation e2e testing framework for web and mobile apps."
+        },
+        {
+          "rank": 8,
+          "github_rank": 7,
+          "repository": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "stars_gained": 3587,
+          "growth_text": "3,587 stars this week",
+          "total_stars": 100710,
+          "language": "TypeScript",
+          "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
+        },
+        {
+          "rank": 9,
+          "github_rank": 10,
+          "repository": "earthtojake/text-to-cad",
+          "url": "https://github.com/earthtojake/text-to-cad",
+          "stars_gained": 2173,
+          "growth_text": "2,173 stars this week",
+          "total_stars": 20287,
+          "language": "Python",
+          "description": "Give your agent CAD superpowers."
+        },
+        {
+          "rank": 10,
+          "github_rank": 11,
+          "repository": "flutter/flutter",
+          "url": "https://github.com/flutter/flutter",
+          "stars_gained": 967,
+          "growth_text": "967 stars this week",
+          "total_stars": 180137,
+          "language": "Dart",
+          "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond"
+        },
+        {
+          "rank": 11,
+          "github_rank": 9,
+          "repository": "twostraws/SwiftUI-Agent-Skill",
+          "url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+          "stars_gained": 911,
+          "growth_text": "911 stars this week",
+          "total_stars": 5937,
+          "language": "",
+          "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools."
+        },
+        {
+          "rank": 12,
+          "github_rank": 5,
+          "repository": "EpicGames/raddebugger",
+          "url": "https://github.com/EpicGames/raddebugger",
+          "stars_gained": 857,
+          "growth_text": "857 stars this week",
+          "total_stars": 8524,
+          "language": "C",
+          "description": "A native, user-mode, multi-process, graphical debugger."
+        }
+      ]
+    },
+    "monthly": {
+      "source_url": "https://github.com/trending?since=monthly",
+      "fetched_at": "2026-10-14T18:51:27.215Z",
+      "count": 22,
+      "source_html_sha256": "9768a065d1620f9231d01d1af45d4361e9115ef86ce1725f2999602cab33edc5",
+      "rows": [
+        {
+          "rank": 1,
+          "github_rank": 5,
+          "repository": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "stars_gained": 36408,
+          "growth_text": "36,408 stars this month",
+          "total_stars": 65713,
+          "language": "Python",
+          "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+        },
+        {
+          "rank": 2,
+          "github_rank": 4,
+          "repository": "vectorize-io/hindsight",
+          "url": "https://github.com/vectorize-io/hindsight",
+          "stars_gained": 25874,
+          "growth_text": "25,874 stars this month",
+          "total_stars": 49630,
+          "language": "Python",
+          "description": "Hindsight: Agent Memory That Learns"
+        },
+        {
+          "rank": 3,
+          "github_rank": 3,
+          "repository": "alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "stars_gained": 24283,
+          "growth_text": "24,283 stars this month",
+          "total_stars": 47148,
+          "language": "Go",
+          "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
+        },
+        {
+          "rank": 4,
+          "github_rank": 7,
+          "repository": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "stars_gained": 22653,
+          "growth_text": "22,653 stars this month",
+          "total_stars": 279241,
+          "language": "JavaScript",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+        },
+        {
+          "rank": 5,
+          "github_rank": 1,
+          "repository": "paperclipai/paperclip",
+          "url": "https://github.com/paperclipai/paperclip",
+          "stars_gained": 21106,
+          "growth_text": "21,106 stars this month",
+          "total_stars": 102049,
+          "language": "TypeScript",
+          "description": "The open-source app everyone uses to manage agents at work"
+        },
+        {
+          "rank": 6,
+          "github_rank": 20,
+          "repository": "rohitg00/ai-engineering-from-scratch",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "stars_gained": 14347,
+          "growth_text": "14,347 stars this month",
+          "total_stars": 69065,
+          "language": "Python",
+          "description": "Learn AI Engineering! Learn it. Build it. Ship it for others."
+        },
+        {
+          "rank": 7,
+          "github_rank": 6,
+          "repository": "heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes",
+          "stars_gained": 13203,
+          "growth_text": "13,203 stars this month",
+          "total_stars": 63546,
+          "language": "TypeScript",
+          "description": "Write HTML. Render video. Built for agents."
+        },
+        {
+          "rank": 8,
+          "github_rank": 15,
+          "repository": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "stars_gained": 12820,
+          "growth_text": "12,820 stars this month",
+          "total_stars": 106601,
+          "language": "JavaScript",
+          "description": "Production-grade engineering skills for AI coding agents."
+        },
+        {
+          "rank": 9,
+          "github_rank": 13,
+          "repository": "Tencent/WeKnora",
+          "url": "https://github.com/Tencent/WeKnora",
+          "stars_gained": 11177,
+          "growth_text": "11,177 stars this month",
+          "total_stars": 33962,
+          "language": "Go",
+          "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki."
+        },
+        {
+          "rank": 10,
+          "github_rank": 18,
+          "repository": "NationalSecurityAgency/ghidra",
+          "url": "https://github.com/NationalSecurityAgency/ghidra",
+          "stars_gained": 11115,
+          "growth_text": "11,115 stars this month",
+          "total_stars": 87199,
+          "language": "Java",
+          "description": "Ghidra is a software reverse engineering (SRE) framework"
+        },
+        {
+          "rank": 11,
+          "github_rank": 14,
+          "repository": "tashfeenahmed/freellmapi",
+          "url": "https://github.com/tashfeenahmed/freellmapi",
+          "stars_gained": 8786,
+          "growth_text": "8,786 stars this month",
+          "total_stars": 35181,
+          "language": "TypeScript",
+          "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only."
+        },
+        {
+          "rank": 12,
+          "github_rank": 10,
+          "repository": "NVIDIA/OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "stars_gained": 7574,
+          "growth_text": "7,574 stars this month",
+          "total_stars": 16205,
+          "language": "Rust",
+          "description": "OpenShell is the safe, private runtime for autonomous AI agents."
+        },
+        {
+          "rank": 13,
+          "github_rank": 12,
+          "repository": "TencentCloud/Octop",
+          "url": "https://github.com/TencentCloud/Octop",
+          "stars_gained": 7517,
+          "growth_text": "7,517 stars this month",
+          "total_stars": 9317,
+          "language": "Python",
+          "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent."
+        },
+        {
+          "rank": 14,
+          "github_rank": 17,
+          "repository": "trycua/cua",
+          "url": "https://github.com/trycua/cua",
+          "stars_gained": 7159,
+          "growth_text": "7,159 stars this month",
+          "total_stars": 29723,
+          "language": "Rust",
+          "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation."
+        },
+        {
+          "rank": 15,
+          "github_rank": 11,
+          "repository": "anthropics/claude-code",
+          "url": "https://github.com/anthropics/claude-code",
+          "stars_gained": 6545,
+          "growth_text": "6,545 stars this month",
+          "total_stars": 150829,
+          "language": "TypeScript",
+          "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+        },
+        {
+          "rank": 16,
+          "github_rank": 8,
+          "repository": "anthropics/knowledge-work-plugins",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "stars_gained": 5569,
+          "growth_text": "5,569 stars this month",
+          "total_stars": 29650,
+          "language": "Python",
+          "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork"
+        },
+        {
+          "rank": 17,
+          "github_rank": 16,
+          "repository": "mksglu/context-mode",
+          "url": "https://github.com/mksglu/context-mode",
+          "stars_gained": 5378,
+          "growth_text": "5,378 stars this month",
+          "total_stars": 28948,
+          "language": "TypeScript",
+          "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+        },
+        {
+          "rank": 18,
+          "github_rank": 2,
+          "repository": "anthropics/financial-services",
+          "url": "https://github.com/anthropics/financial-services",
+          "stars_gained": 4971,
+          "growth_text": "4,971 stars this month",
+          "total_stars": 39834,
+          "language": "Python",
+          "description": ""
+        },
+        {
+          "rank": 19,
+          "github_rank": 19,
+          "repository": "cursor/plugins",
+          "url": "https://github.com/cursor/plugins",
+          "stars_gained": 3795,
+          "growth_text": "3,795 stars this month",
+          "total_stars": 11356,
+          "language": "TypeScript",
+          "description": "Cursor plugin specification and official plugins"
+        },
+        {
+          "rank": 20,
+          "github_rank": 9,
+          "repository": "agent-substrate/substrate",
+          "url": "https://github.com/agent-substrate/substrate",
+          "stars_gained": 3190,
+          "growth_text": "3,190 stars this month",
+          "total_stars": 5140,
+          "language": "Go",
+          "description": "Agent Substrate: the core system"
+        },
+        {
+          "rank": 21,
+          "github_rank": 21,
+          "repository": "longbridge/gpui-kit",
+          "url": "https://github.com/longbridge/gpui-kit",
+          "stars_gained": 2812,
+          "growth_text": "2,812 stars this month",
+          "total_stars": 17388,
+          "language": "Rust",
+          "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI."
+        },
+        {
+          "rank": 22,
+          "github_rank": 22,
+          "repository": "Gaurav-Gosain/tuios",
+          "url": "https://github.com/Gaurav-Gosain/tuios",
+          "stars_gained": 1659,
+          "growth_text": "1,659 stars this month",
+          "total_stars": 5307,
+          "language": "Go",
+          "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent."
+        }
+      ]
+    }
+  }
+}
