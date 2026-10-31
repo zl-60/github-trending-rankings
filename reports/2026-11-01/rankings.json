@@ -1,0 +1,561 @@
+{
+  "snapshot_date": "2026-11-01",
+  "generated_at": "2026-10-31T19:31:38.625Z",
+  "snapshot_date_timezone": "Asia/Shanghai",
+  "mode": "live",
+  "ranking": "period stars descending; ties preserve GitHub rank; all listed repositories retained",
+  "boards": {
+    "daily": {
+      "source_url": "https://github.com/trending?since=daily",
+      "fetched_at": "2026-10-31T19:31:38.273Z",
+      "count": 14,
+      "source_html_sha256": "87dc0ed8f4629e84807aaac4ca6bbd7762d2b6bad304aa5f93937e85c694d422",
+      "rows": [
+        {
+          "rank": 1,
+          "github_rank": 1,
+          "repository": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "stars_gained": 1723,
+          "growth_text": "1,723 stars today",
+          "total_stars": 107581,
+          "language": "TypeScript",
+          "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
+        },
+        {
+          "rank": 2,
+          "github_rank": 3,
+          "repository": "Donchitos/Claude-Code-Game-Studios",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+          "stars_gained": 1347,
+          "growth_text": "1,347 stars today",
+          "total_stars": 31019,
+          "language": "Shell",
+          "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy."
+        },
+        {
+          "rank": 3,
+          "github_rank": 7,
+          "repository": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "stars_gained": 1339,
+          "growth_text": "1,339 stars today",
+          "total_stars": 98084,
+          "language": "Rust",
+          "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships."
+        },
+        {
+          "rank": 4,
+          "github_rank": 6,
+          "repository": "milind-soni/OpenMausBot",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "stars_gained": 1304,
+          "growth_text": "1,304 stars today",
+          "total_stars": 9454,
+          "language": "TypeScript",
+          "description": "Open-source Grok Bot alternative with a virtual machine that bots can use"
+        },
+        {
+          "rank": 5,
+          "github_rank": 4,
+          "repository": "pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code",
+          "stars_gained": 1148,
+          "growth_text": "1,148 stars today",
+          "total_stars": 34907,
+          "language": "TypeScript",
+          "description": ""
+        },
+        {
+          "rank": 6,
+          "github_rank": 11,
+          "repository": "Orkas-AI/Orkas",
+          "url": "https://github.com/Orkas-AI/Orkas",
+          "stars_gained": 1118,
+          "growth_text": "1,118 stars today",
+          "total_stars": 6041,
+          "language": "JavaScript",
+          "description": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-in models or your own keys."
+        },
+        {
+          "rank": 7,
+          "github_rank": 5,
+          "repository": "Renhuai123/ziwei-doushu",
+          "url": "https://github.com/Renhuai123/ziwei-doushu",
+          "stars_gained": 1093,
+          "growth_text": "1,093 stars today",
+          "total_stars": 12222,
+          "language": "TypeScript",
+          "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据"
+        },
+        {
+          "rank": 8,
+          "github_rank": 10,
+          "repository": "HKUDS/DeepTutor",
+          "url": "https://github.com/HKUDS/DeepTutor",
+          "stars_gained": 1035,
+          "growth_text": "1,035 stars today",
+          "total_stars": 52634,
+          "language": "Python",
+          "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ ."
+        },
+        {
+          "rank": 9,
+          "github_rank": 9,
+          "repository": "lightpanda-io/browser",
+          "url": "https://github.com/lightpanda-io/browser",
+          "stars_gained": 929,
+          "growth_text": "929 stars today",
+          "total_stars": 39083,
+          "language": "Zig",
+          "description": "Lightpanda: the headless browser designed for AI and automation"
+        },
+        {
+          "rank": 10,
+          "github_rank": 2,
+          "repository": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "stars_gained": 882,
+          "growth_text": "882 stars today",
+          "total_stars": 308191,
+          "language": "Shell",
+          "description": "Skills for Real Engineers. Straight from my .agents directory."
+        },
+        {
+          "rank": 11,
+          "github_rank": 8,
+          "repository": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "stars_gained": 663,
+          "growth_text": "663 stars today",
+          "total_stars": 309939,
+          "language": "Shell",
+          "description": "An agentic skills framework & software development methodology that works."
+        },
+        {
+          "rank": 12,
+          "github_rank": 14,
+          "repository": "vorssaint/vorssaint-utils",
+          "url": "https://github.com/vorssaint/vorssaint-utils",
+          "stars_gained": 499,
+          "growth_text": "499 stars today",
+          "total_stars": 31788,
+          "language": "Swift",
+          "description": "Free and open-source macOS menu bar toolkit."
+        },
+        {
+          "rank": 13,
+          "github_rank": 13,
+          "repository": "bregman-arie/devops-exercises",
+          "url": "https://github.com/bregman-arie/devops-exercises",
+          "stars_gained": 341,
+          "growth_text": "341 stars today",
+          "total_stars": 85828,
+          "language": "Python",
+          "description": "Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions"
+        },
+        {
+          "rank": 14,
+          "github_rank": 12,
+          "repository": "THU-MAIC/OpenMAIC",
+          "url": "https://github.com/THU-MAIC/OpenMAIC",
+          "stars_gained": 115,
+          "growth_text": "115 stars today",
+          "total_stars": 42127,
+          "language": "TypeScript",
+          "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click"
+        }
+      ]
+    },
+    "weekly": {
+      "source_url": "https://github.com/trending?since=weekly",
+      "fetched_at": "2026-10-31T19:31:38.618Z",
+      "count": 15,
+      "source_html_sha256": "e44af9c97ba6729ec4685b831ba48064a5673a6bdd9da7f0ff574a2bcc4740e0",
+      "rows": [
+        {
+          "rank": 1,
+          "github_rank": 2,
+          "repository": "cloudflare/security-audit-skill",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "stars_gained": 12838,
+          "growth_text": "12,838 stars this week",
+          "total_stars": 55095,
+          "language": "JavaScript",
+          "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+        },
+        {
+          "rank": 2,
+          "github_rank": 1,
+          "repository": "Nutlope/hallmark",
+          "url": "https://github.com/Nutlope/hallmark",
+          "stars_gained": 11766,
+          "growth_text": "11,766 stars this week",
+          "total_stars": 43760,
+          "language": "CSS",
+          "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+        },
+        {
+          "rank": 3,
+          "github_rank": 4,
+          "repository": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "stars_gained": 11323,
+          "growth_text": "11,323 stars this week",
+          "total_stars": 98084,
+          "language": "Rust",
+          "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships."
+        },
+        {
+          "rank": 4,
+          "github_rank": 14,
+          "repository": "YuJunZhiXue/dsh-purge",
+          "url": "https://github.com/YuJunZhiXue/dsh-purge",
+          "stars_gained": 6665,
+          "growth_text": "6,665 stars this week",
+          "total_stars": 14521,
+          "language": "JavaScript",
+          "description": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分"
+        },
+        {
+          "rank": 5,
+          "github_rank": 13,
+          "repository": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "stars_gained": 6506,
+          "growth_text": "6,506 stars this week",
+          "total_stars": 293913,
+          "language": "JavaScript",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+        },
+        {
+          "rank": 6,
+          "github_rank": 7,
+          "repository": "TauricResearch/TradingAgents",
+          "url": "https://github.com/TauricResearch/TradingAgents",
+          "stars_gained": 5490,
+          "growth_text": "5,490 stars this week",
+          "total_stars": 118994,
+          "language": "Python",
+          "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+        },
+        {
+          "rank": 7,
+          "github_rank": 5,
+          "repository": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "stars_gained": 5474,
+          "growth_text": "5,474 stars this week",
+          "total_stars": 309939,
+          "language": "Shell",
+          "description": "An agentic skills framework & software development methodology that works."
+        },
+        {
+          "rank": 8,
+          "github_rank": 9,
+          "repository": "Leonxlnx/taste-skill",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "stars_gained": 4712,
+          "growth_text": "4,712 stars this week",
+          "total_stars": 106902,
+          "language": "JavaScript",
+          "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages"
+        },
+        {
+          "rank": 9,
+          "github_rank": 3,
+          "repository": "AgriciDaniel/claude-seo",
+          "url": "https://github.com/AgriciDaniel/claude-seo",
+          "stars_gained": 4478,
+          "growth_text": "4,478 stars this week",
+          "total_stars": 24941,
+          "language": "Python",
+          "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data."
+        },
+        {
+          "rank": 10,
+          "github_rank": 6,
+          "repository": "multica-ai/andrej-karpathy-skills",
+          "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+          "stars_gained": 4178,
+          "growth_text": "4,178 stars this week",
+          "total_stars": 227400,
+          "language": "",
+          "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls."
+        },
+        {
+          "rank": 11,
+          "github_rank": 11,
+          "repository": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "stars_gained": 3518,
+          "growth_text": "3,518 stars this week",
+          "total_stars": 107581,
+          "language": "TypeScript",
+          "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
+        },
+        {
+          "rank": 12,
+          "github_rank": 10,
+          "repository": "pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code",
+          "stars_gained": 2775,
+          "growth_text": "2,775 stars this week",
+          "total_stars": 34907,
+          "language": "TypeScript",
+          "description": ""
+        },
+        {
+          "rank": 13,
+          "github_rank": 15,
+          "repository": "AstrBotDevs/AstrBot",
+          "url": "https://github.com/AstrBotDevs/AstrBot",
+          "stars_gained": 2133,
+          "growth_text": "2,133 stars this week",
+          "total_stars": 45307,
+          "language": "Python",
+          "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨"
+        },
+        {
+          "rank": 14,
+          "github_rank": 12,
+          "repository": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "stars_gained": 1888,
+          "growth_text": "1,888 stars this week",
+          "total_stars": 185806,
+          "language": "Python",
+          "description": "Public repository for Agent Skills"
+        },
+        {
+          "rank": 15,
+          "github_rank": 8,
+          "repository": "jakubkrehel/skills",
+          "url": "https://github.com/jakubkrehel/skills",
+          "stars_gained": 1107,
+          "growth_text": "1,107 stars this week",
+          "total_stars": 9559,
+          "language": "Markdown",
+          "description": "A collection of agent skills that help you build great interfaces."
+        }
+      ]
+    },
+    "monthly": {
+      "source_url": "https://github.com/trending?since=monthly",
+      "fetched_at": "2026-10-31T19:31:38.625Z",
+      "count": 19,
+      "source_html_sha256": "a66e00c16f3274b118a8c9933777aff6d068bc06208ded96a5abc5c28d3e62b8",
+      "rows": [
+        {
+          "rank": 1,
+          "github_rank": 5,
+          "repository": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "stars_gained": 49116,
+          "growth_text": "49,116 stars this month",
+          "total_stars": 96655,
+          "language": "Python",
+          "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+        },
+        {
+          "rank": 2,
+          "github_rank": 1,
+          "repository": "cloudflare/security-audit-skill",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "stars_gained": 30721,
+          "growth_text": "30,721 stars this month",
+          "total_stars": 55095,
+          "language": "JavaScript",
+          "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+        },
+        {
+          "rank": 3,
+          "github_rank": 18,
+          "repository": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "stars_gained": 25494,
+          "growth_text": "25,494 stars this month",
+          "total_stars": 293913,
+          "language": "JavaScript",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+        },
+        {
+          "rank": 4,
+          "github_rank": 6,
+          "repository": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "stars_gained": 24624,
+          "growth_text": "24,624 stars this month",
+          "total_stars": 98084,
+          "language": "Rust",
+          "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships."
+        },
+        {
+          "rank": 5,
+          "github_rank": 2,
+          "repository": "heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes",
+          "stars_gained": 22149,
+          "growth_text": "22,149 stars this month",
+          "total_stars": 76500,
+          "language": "TypeScript",
+          "description": "Write HTML. Render video. Built for agents."
+        },
+        {
+          "rank": 6,
+          "github_rank": 8,
+          "repository": "NationalSecurityAgency/ghidra",
+          "url": "https://github.com/NationalSecurityAgency/ghidra",
+          "stars_gained": 16470,
+          "growth_text": "16,470 stars this month",
+          "total_stars": 96430,
+          "language": "Java",
+          "description": "Ghidra is a software reverse engineering (SRE) framework"
+        },
+        {
+          "rank": 7,
+          "github_rank": 15,
+          "repository": "Leonxlnx/taste-skill",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "stars_gained": 15496,
+          "growth_text": "15,496 stars this month",
+          "total_stars": 106902,
+          "language": "JavaScript",
+          "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages"
+        },
+        {
+          "rank": 8,
+          "github_rank": 3,
+          "repository": "Nutlope/hallmark",
+          "url": "https://github.com/Nutlope/hallmark",
+          "stars_gained": 13397,
+          "growth_text": "13,397 stars this month",
+          "total_stars": 43760,
+          "language": "CSS",
+          "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+        },
+        {
+          "rank": 9,
+          "github_rank": 10,
+          "repository": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "stars_gained": 11124,
+          "growth_text": "11,124 stars this month",
+          "total_stars": 107581,
+          "language": "TypeScript",
+          "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
+        },
+        {
+          "rank": 10,
+          "github_rank": 12,
+          "repository": "mksglu/context-mode",
+          "url": "https://github.com/mksglu/context-mode",
+          "stars_gained": 8913,
+          "growth_text": "8,913 stars this month",
+          "total_stars": 33025,
+          "language": "TypeScript",
+          "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks."
+        },
+        {
+          "rank": 11,
+          "github_rank": 9,
+          "repository": "pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code",
+          "stars_gained": 8676,
+          "growth_text": "8,676 stars this month",
+          "total_stars": 34907,
+          "language": "TypeScript",
+          "description": ""
+        },
+        {
+          "rank": 12,
+          "github_rank": 11,
+          "repository": "anthropics/claude-plugins-official",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "stars_gained": 8442,
+          "growth_text": "8,442 stars this month",
+          "total_stars": 45545,
+          "language": "Python",
+          "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+        },
+        {
+          "rank": 13,
+          "github_rank": 4,
+          "repository": "anthropics/knowledge-work-plugins",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "stars_gained": 8279,
+          "growth_text": "8,279 stars this month",
+          "total_stars": 34162,
+          "language": "Python",
+          "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork"
+        },
+        {
+          "rank": 14,
+          "github_rank": 7,
+          "repository": "earthtojake/text-to-cad",
+          "url": "https://github.com/earthtojake/text-to-cad",
+          "stars_gained": 7976,
+          "growth_text": "7,976 stars this month",
+          "total_stars": 24495,
+          "language": "Python",
+          "description": "Design physical products with AI"
+        },
+        {
+          "rank": 15,
+          "github_rank": 19,
+          "repository": "AgriciDaniel/claude-seo",
+          "url": "https://github.com/AgriciDaniel/claude-seo",
+          "stars_gained": 6415,
+          "growth_text": "6,415 stars this month",
+          "total_stars": 24941,
+          "language": "Python",
+          "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data."
+        },
+        {
+          "rank": 16,
+          "github_rank": 13,
+          "repository": "mvschwarz/openrig",
+          "url": "https://github.com/mvschwarz/openrig",
+          "stars_gained": 6245,
+          "growth_text": "6,245 stars this month",
+          "total_stars": 8468,
+          "language": "TypeScript",
+          "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work."
+        },
+        {
+          "rank": 17,
+          "github_rank": 14,
+          "repository": "cursor/plugins",
+          "url": "https://github.com/cursor/plugins",
+          "stars_gained": 5817,
+          "growth_text": "5,817 stars this month",
+          "total_stars": 14850,
+          "language": "TypeScript",
+          "description": "Cursor plugin specification and official plugins"
+        },
+        {
+          "rank": 18,
+          "github_rank": 17,
+          "repository": "android/skills",
+          "url": "https://github.com/android/skills",
+          "stars_gained": 2506,
+          "growth_text": "2,506 stars this month",
+          "total_stars": 10157,
+          "language": "Kotlin",
+          "description": ""
+        },
+        {
+          "rank": 19,
+          "github_rank": 16,
+          "repository": "flutter/flutter",
+          "url": "https://github.com/flutter/flutter",
+          "stars_gained": 2145,
+          "growth_text": "2,145 stars this month",
+          "total_stars": 180820,
+          "language": "Dart",
+          "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond"
+        }
+      ]
+    }
+  }
+}
