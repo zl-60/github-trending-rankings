@@ -1,0 +1,495 @@
+{
+  "snapshot_date": "2026-11-14",
+  "generated_at": "2026-11-13T18:00:29.470Z",
+  "snapshot_date_timezone": "Asia/Shanghai",
+  "mode": "live",
+  "ranking": "period stars descending; ties preserve GitHub rank; all listed repositories retained",
+  "boards": {
+    "daily": {
+      "source_url": "https://github.com/trending?since=daily",
+      "fetched_at": "2026-11-13T18:00:28.838Z",
+      "count": 12,
+      "source_html_sha256": "0da81dd4c2267077e88c04330d2d5e4ef849bef52006e0cbf8fc5d0db95018a9",
+      "rows": [
+        {
+          "rank": 1,
+          "github_rank": 2,
+          "repository": "GoogleChrome/modern-web-guidance-src",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+          "stars_gained": 1875,
+          "growth_text": "1,875 stars today",
+          "total_stars": 4520,
+          "language": "TypeScript",
+          "description": "Keep your coding agent up to date with the latest web best practices"
+        },
+        {
+          "rank": 2,
+          "github_rank": 5,
+          "repository": "we-promise/sure",
+          "url": "https://github.com/we-promise/sure",
+          "stars_gained": 944,
+          "growth_text": "944 stars today",
+          "total_stars": 14556,
+          "language": "Ruby",
+          "description": "The personal finance app for everyone (by everyone)"
+        },
+        {
+          "rank": 3,
+          "github_rank": 3,
+          "repository": "openai/codex-security",
+          "url": "https://github.com/openai/codex-security",
+          "stars_gained": 754,
+          "growth_text": "754 stars today",
+          "total_stars": 12979,
+          "language": "TypeScript",
+          "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security"
+        },
+        {
+          "rank": 4,
+          "github_rank": 10,
+          "repository": "tailscale/tailcat",
+          "url": "https://github.com/tailscale/tailcat",
+          "stars_gained": 324,
+          "growth_text": "324 stars today",
+          "total_stars": 9331,
+          "language": "Go",
+          "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane"
+        },
+        {
+          "rank": 5,
+          "github_rank": 4,
+          "repository": "ZhuLinsen/daily_stock_analysis",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "stars_gained": 272,
+          "growth_text": "272 stars today",
+          "total_stars": 71442,
+          "language": "Python",
+          "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+        },
+        {
+          "rank": 6,
+          "github_rank": 11,
+          "repository": "Likely7/Veyra-NRVideo",
+          "url": "https://github.com/Likely7/Veyra-NRVideo",
+          "stars_gained": 245,
+          "growth_text": "245 stars today",
+          "total_stars": 1526,
+          "language": "C++",
+          "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience."
+        },
+        {
+          "rank": 7,
+          "github_rank": 1,
+          "repository": "alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "stars_gained": 206,
+          "growth_text": "206 stars today",
+          "total_stars": 50407,
+          "language": "Go",
+          "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
+        },
+        {
+          "rank": 8,
+          "github_rank": 12,
+          "repository": "ChromeDevTools/chrome-devtools-mcp",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "stars_gained": 145,
+          "growth_text": "145 stars today",
+          "total_stars": 55343,
+          "language": "TypeScript",
+          "description": "Chrome DevTools for coding agents"
+        },
+        {
+          "rank": 9,
+          "github_rank": 6,
+          "repository": "backnotprop/plannotator",
+          "url": "https://github.com/backnotprop/plannotator",
+          "stars_gained": 100,
+          "growth_text": "100 stars today",
+          "total_stars": 10360,
+          "language": "TypeScript",
+          "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click."
+        },
+        {
+          "rank": 10,
+          "github_rank": 8,
+          "repository": "block/buzz",
+          "url": "https://github.com/block/buzz",
+          "stars_gained": 95,
+          "growth_text": "95 stars today",
+          "total_stars": 37243,
+          "language": "Rust",
+          "description": "A hive mind communication platform"
+        },
+        {
+          "rank": 11,
+          "github_rank": 7,
+          "repository": "louislam/uptime-kuma",
+          "url": "https://github.com/louislam/uptime-kuma",
+          "stars_gained": 61,
+          "growth_text": "61 stars today",
+          "total_stars": 93748,
+          "language": "JavaScript",
+          "description": "A fancy self-hosted monitoring tool"
+        },
+        {
+          "rank": 12,
+          "github_rank": 9,
+          "repository": "tradermonty/claude-trading-skills",
+          "url": "https://github.com/tradermonty/claude-trading-skills",
+          "stars_gained": 60,
+          "growth_text": "60 stars today",
+          "total_stars": 4026,
+          "language": "Python",
+          "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development."
+        }
+      ]
+    },
+    "weekly": {
+      "source_url": "https://github.com/trending?since=weekly",
+      "fetched_at": "2026-11-13T18:00:29.470Z",
+      "count": 15,
+      "source_html_sha256": "5ca45d31a3824b691738905fd27442dbc3067c0ad0f0660b7f642c99b8386096",
+      "rows": [
+        {
+          "rank": 1,
+          "github_rank": 1,
+          "repository": "sherlock-project/sherlock",
+          "url": "https://github.com/sherlock-project/sherlock",
+          "stars_gained": 14381,
+          "growth_text": "14,381 stars this week",
+          "total_stars": 111006,
+          "language": "Python",
+          "description": "Hunt down social media accounts by username across social networks"
+        },
+        {
+          "rank": 2,
+          "github_rank": 11,
+          "repository": "cloudflare/security-audit-skill",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "stars_gained": 10700,
+          "growth_text": "10,700 stars this week",
+          "total_stars": 71726,
+          "language": "JavaScript",
+          "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+        },
+        {
+          "rank": 3,
+          "github_rank": 3,
+          "repository": "milind-soni/OpenMausBot",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "stars_gained": 9104,
+          "growth_text": "9,104 stars this week",
+          "total_stars": 22111,
+          "language": "TypeScript",
+          "description": "Open-source Grok Bot alternative with a virtual machine that bots can use"
+        },
+        {
+          "rank": 4,
+          "github_rank": 9,
+          "repository": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "stars_gained": 8731,
+          "growth_text": "8,731 stars this week",
+          "total_stars": 323655,
+          "language": "Shell",
+          "description": "Skills for Real Engineers. Straight from my .agents directory."
+        },
+        {
+          "rank": 5,
+          "github_rank": 14,
+          "repository": "vercel-labs/agent-desktop",
+          "url": "https://github.com/vercel-labs/agent-desktop",
+          "stars_gained": 6414,
+          "growth_text": "6,414 stars this week",
+          "total_stars": 23199,
+          "language": "Rust",
+          "description": "Computer use CLI for AI agents"
+        },
+        {
+          "rank": 6,
+          "github_rank": 2,
+          "repository": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "stars_gained": 6055,
+          "growth_text": "6,055 stars this week",
+          "total_stars": 194052,
+          "language": "Python",
+          "description": "Public repository for Agent Skills"
+        },
+        {
+          "rank": 7,
+          "github_rank": 7,
+          "repository": "NVIDIA/auto-ontology",
+          "url": "https://github.com/NVIDIA/auto-ontology",
+          "stars_gained": 5802,
+          "growth_text": "5,802 stars this week",
+          "total_stars": 12501,
+          "language": "Python",
+          "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows."
+        },
+        {
+          "rank": 8,
+          "github_rank": 5,
+          "repository": "google/elephant-goldfish-model",
+          "url": "https://github.com/google/elephant-goldfish-model",
+          "stars_gained": 5555,
+          "growth_text": "5,555 stars this week",
+          "total_stars": 18497,
+          "language": "Python",
+          "description": "Open-source plugin for designing and reviewing software with agents"
+        },
+        {
+          "rank": 9,
+          "github_rank": 4,
+          "repository": "vercel-labs/agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "stars_gained": 4601,
+          "growth_text": "4,601 stars this week",
+          "total_stars": 50635,
+          "language": "Rust",
+          "description": "Browser automation CLI for AI agents"
+        },
+        {
+          "rank": 10,
+          "github_rank": 6,
+          "repository": "ZhuLinsen/daily_stock_analysis",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "stars_gained": 3569,
+          "growth_text": "3,569 stars this week",
+          "total_stars": 71442,
+          "language": "Python",
+          "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs."
+        },
+        {
+          "rank": 11,
+          "github_rank": 10,
+          "repository": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "stars_gained": 3199,
+          "growth_text": "3,199 stars this week",
+          "total_stars": 117068,
+          "language": "JavaScript",
+          "description": "Production-grade engineering skills for AI coding agents."
+        },
+        {
+          "rank": 12,
+          "github_rank": 12,
+          "repository": "zed-industries/zed",
+          "url": "https://github.com/zed-industries/zed",
+          "stars_gained": 2339,
+          "growth_text": "2,339 stars this week",
+          "total_stars": 94935,
+          "language": "Rust",
+          "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter."
+        },
+        {
+          "rank": 13,
+          "github_rank": 13,
+          "repository": "anthropics/claude-quickstarts",
+          "url": "https://github.com/anthropics/claude-quickstarts",
+          "stars_gained": 1710,
+          "growth_text": "1,710 stars this week",
+          "total_stars": 20849,
+          "language": "Python",
+          "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API"
+        },
+        {
+          "rank": 14,
+          "github_rank": 8,
+          "repository": "google-deepmind/mujoco",
+          "url": "https://github.com/google-deepmind/mujoco",
+          "stars_gained": 1671,
+          "growth_text": "1,671 stars this week",
+          "total_stars": 17847,
+          "language": "C++",
+          "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator."
+        },
+        {
+          "rank": 15,
+          "github_rank": 15,
+          "repository": "lobehub/lobehub",
+          "url": "https://github.com/lobehub/lobehub",
+          "stars_gained": 1186,
+          "growth_text": "1,186 stars this week",
+          "total_stars": 85342,
+          "language": "TypeScript",
+          "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week."
+        }
+      ]
+    },
+    "monthly": {
+      "source_url": "https://github.com/trending?since=monthly",
+      "fetched_at": "2026-11-13T18:00:29.153Z",
+      "count": 15,
+      "source_html_sha256": "abfde6c1d0466a6d5c98f1b58ec6af111a869a261224de91fb306e9f9b9d2db6",
+      "rows": [
+        {
+          "rank": 1,
+          "github_rank": 2,
+          "repository": "morluto/rea",
+          "url": "https://github.com/morluto/rea",
+          "stars_gained": 325178,
+          "growth_text": "325,178 stars this month",
+          "total_stars": 457134,
+          "language": "TypeScript",
+          "description": "Reverse engineer anything with agents, from app behavior down to native binaries."
+        },
+        {
+          "rank": 2,
+          "github_rank": 11,
+          "repository": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "stars_gained": 49960,
+          "growth_text": "49,960 stars this month",
+          "total_stars": 109807,
+          "language": "Python",
+          "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+        },
+        {
+          "rank": 3,
+          "github_rank": 3,
+          "repository": "cloudflare/security-audit-skill",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "stars_gained": 42602,
+          "growth_text": "42,602 stars this month",
+          "total_stars": 71726,
+          "language": "JavaScript",
+          "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings"
+        },
+        {
+          "rank": 4,
+          "github_rank": 5,
+          "repository": "pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code",
+          "stars_gained": 30926,
+          "growth_text": "30,926 stars this month",
+          "total_stars": 59344,
+          "language": "TypeScript",
+          "description": "The best way to control Claude Code, Codex and more from any computer or phone"
+        },
+        {
+          "rank": 5,
+          "github_rank": 6,
+          "repository": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "stars_gained": 29165,
+          "growth_text": "29,165 stars this month",
+          "total_stars": 109439,
+          "language": "Rust",
+          "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships."
+        },
+        {
+          "rank": 6,
+          "github_rank": 1,
+          "repository": "Nutlope/hallmark",
+          "url": "https://github.com/Nutlope/hallmark",
+          "stars_gained": 24106,
+          "growth_text": "24,106 stars this month",
+          "total_stars": 54403,
+          "language": "CSS",
+          "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex."
+        },
+        {
+          "rank": 7,
+          "github_rank": 7,
+          "repository": "heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes",
+          "stars_gained": 22251,
+          "growth_text": "22,251 stars this month",
+          "total_stars": 83822,
+          "language": "TypeScript",
+          "description": "Write HTML. Render video. Built for agents."
+        },
+        {
+          "rank": 8,
+          "github_rank": 12,
+          "repository": "Leonxlnx/taste-skill",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "stars_gained": 19580,
+          "growth_text": "19,580 stars this month",
+          "total_stars": 114874,
+          "language": "JavaScript",
+          "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages"
+        },
+        {
+          "rank": 9,
+          "github_rank": 8,
+          "repository": "HKUDS/DeepTutor",
+          "url": "https://github.com/HKUDS/DeepTutor",
+          "stars_gained": 17692,
+          "growth_text": "17,692 stars this month",
+          "total_stars": 58892,
+          "language": "Python",
+          "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ ."
+        },
+        {
+          "rank": 10,
+          "github_rank": 4,
+          "repository": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "stars_gained": 17162,
+          "growth_text": "17,162 stars this month",
+          "total_stars": 116781,
+          "language": "TypeScript",
+          "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More"
+        },
+        {
+          "rank": 11,
+          "github_rank": 9,
+          "repository": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "stars_gained": 13440,
+          "growth_text": "13,440 stars this month",
+          "total_stars": 194052,
+          "language": "Python",
+          "description": "Public repository for Agent Skills"
+        },
+        {
+          "rank": 12,
+          "github_rank": 10,
+          "repository": "AgriciDaniel/claude-seo",
+          "url": "https://github.com/AgriciDaniel/claude-seo",
+          "stars_gained": 9819,
+          "growth_text": "9,819 stars this month",
+          "total_stars": 28970,
+          "language": "Python",
+          "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data."
+        },
+        {
+          "rank": 13,
+          "github_rank": 14,
+          "repository": "anthropics/claude-plugins-official",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "stars_gained": 9515,
+          "growth_text": "9,515 stars this month",
+          "total_stars": 47150,
+          "language": "Python",
+          "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins."
+        },
+        {
+          "rank": 14,
+          "github_rank": 15,
+          "repository": "vercel-labs/agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "stars_gained": 6529,
+          "growth_text": "6,529 stars this month",
+          "total_stars": 50635,
+          "language": "Rust",
+          "description": "Browser automation CLI for AI agents"
+        },
+        {
+          "rank": 15,
+          "github_rank": 13,
+          "repository": "anthropics/knowledge-work-plugins",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "stars_gained": 6451,
+          "growth_text": "6,451 stars this month",
+          "total_stars": 35653,
+          "language": "Python",
+          "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork"
+        }
+      ]
+    }
+  }
+}
